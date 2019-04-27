@@ -1,0 +1,13 @@
+﻿High Level Design
+	This module is meant to signify how our domain model is mapped to an API service which provides management for information
+	on classes, students and files. When implemented in coordination with a database the client could use this interface to 
+	retrieve processed data and make requests to add information to be processed and indexed by other components.
+
+Use Cases
+	1) Request file from classes and users: Clients can requests specific files by asking our module for the file based on id.
+	2) Add a file a class or user: Clients could post to our module to add a file to their class or personal page.
+	3) Add users to classroom: Clients can make requests containing student information to add a user to a classroom. 
+	   this gives them permission to access the files within the specified class.
+
+How to run
+	Open the file named ConsoleApp1.csproj in Visual Studio. Set ConsoleApp1 as the startup project and click start on the top toolbar.
